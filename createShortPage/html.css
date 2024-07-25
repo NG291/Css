@@ -1,0 +1,66 @@
+.container{
+    margin: auto;
+    font-family: Arial;
+}
+.header {
+  width: 100%;height: 100px;
+     background-color: aqua;
+     position: relative;
+}
+ .header h1{
+     margin-top: -70px;
+     margin-left: 100px;
+     text-align: center;
+
+ }
+ img {
+     display: block;
+     width: 100px;
+     height: 100px;
+ }
+ #imgIndex{
+     width: 200px;
+     height: 300px;
+     display:  inline-block;
+     background-size: cover ;
+     vertical-align:top;
+ }
+ .index{
+     width: 100%;
+     height: 300px;
+     color: white;
+     font-size: large;
+     background-color: chartreuse;
+     margin-top: 10px;
+ }
+
+ ul{
+     list-style-type:none;
+     display:  inline-block;
+     margin-top: 20px;
+ }
+li {
+    width: 200px;
+    border-radius: 10px ;
+    background-color: #ff00ff;
+    padding: 5px;
+    text-decoration-line: none;
+    margin-bottom: 15px;
+    margin-left: 90px;
+ }
+.index a{
+    text-decoration-line: none;
+    color: black;
+}
+.doc h5 {
+    font-size: 50px;
+    color: red;
+    margin:0;
+}
+footer {
+    padding:  10px;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+}
